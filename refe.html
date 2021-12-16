@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+   			<meta charset="UTF-8">
+   			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   			<title>AYUDA</title>
+   		</head>
+   		<body>
+ 
+   			<form action="/info/get/ciudad" method="GET">
+   				<input type="submit" value="GET CIUDAD">
+   			</form>
+   			<form action="/info/get/distrito" method="GET">
+   				<input type="submit" value="GET DISTRITO">
+   			</form>
+   			<form action="/info/get/tienda" method="GET">
+   				<input type="submit" value="GET TIENDA">
+   			</form>
+   			<form action="/info/get/pedido" method="GET">
+   				<input type="submit" value="GET PEDIDO">
+   			</form>
+   			<form action="/info/get/mensajero" method="GET">
+   				<input type="submit" value="GET MENSAJERO">
+   			</form>
+   			<form action="/info/get/dispositivo" method="GET">
+   				<input type="submit" value="GET DISPOSITIVO">
+   			</form>
+   			<form action="/info/get/cliente" method="GET">
+   				<input type="submit" value="GET CLIENTE">
+   			</form>
+   			<form action="/info/get/factura" method="GET">
+   				<input type="submit" value="GET FACTURA">
+   			</form>
+   			<form action="/info/get/met_pago" method="GET">
+   				<input type="submit" value="GET METODO DE PAGO">
+   			</form>
+   			<form action="/info/get/producto" method="GET">
+   				<input type="submit" value="GET PRODUCTO">
+   			</form>
+   			<form action="/info/get/proveedor" method="GET">
+   				<input type="submit" value="GET PROVEEDOR">
+   			</form>
+   			<form action="/info/get/utilidad" method="GET">
+   				<input type="submit" value="GET UTILIDAD">
+   			</form>
+   			<form action="/info/get/stock" method="GET">
+   				<input type="submit" value="GET SOTCK">
+   			</form>
+   			<form action="/info/get/empleado" method="GET">
+   				<input type="submit" value="GET EMPLEADO">
+   			</form>
+   			
+   			
+   			
+   			
+   			<form action="/info/add" method="POST">
+   				<label for="addTabla">Tabla</label>
+   				<input type="text" name="addTabla" id="addTabla">
+   				<label for="addId">ADD ID</label>
+   				<input type="number" name="addId" id="addId">
+   				<label for="addName">ADD NAME</label>
+   				<input type="text" name="addName" id="addName">
+   				<label for="addIng">ADD INGREDIENTE</label>
+   				<input type="text" name="addIng" id="addIng">
+   				
+   				<input type="submit" value="ADD">
+   			</form>
+   			<form action="/info/delete" method="POST">
+   				<label for="deleteTabla">Tabla</label>
+   				<input type="text" name="deleteTabla" id="deleteTabla">
+   				<label for="delete">DELETE</label>
+   				<input type="text" name="delete" id="delete">
+   				<input type="submit" value="DELETE">
+   			</form>
+   			<form action="/info/update" method="POST">
+   				<label for="upTabla">Tabla</label>
+   				<input type="text" name="upTabla" id="upTabla">
+   				<label for="newValueName">NEWVALUE Name</label>
+   				<input type="text" name="newValueName" id="newValueName">
+   				<label for="newValueIng">NEWVALUE ING.</label>
+   				<input type="text" name="newValueIng" id="newValueIng">
+   				<label for="idvalue">ID Producto</label>
+   				<input type="number" name="idvalue" id="idvalue">
+   				<input type="submit" value="UPDATE">
+   			</form>
+   			
+   			
+   		</body>
+   	</html>
